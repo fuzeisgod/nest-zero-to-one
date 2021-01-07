@@ -4,7 +4,7 @@ import db from '../../config/db'
 const sequelize = new Sequelize(db.mssql.database, db.mssql.user, db.mssql.password || null, {
     host: db.mssql.host,
     port: db.mssql.port,
-    dialect: 'mysql',
+    dialect: 'mssql',
     pool: {
         max:db.mssql.connectionLimit, // 连接池中最大连接数量
         min:0, // 连接池中最小连接数量

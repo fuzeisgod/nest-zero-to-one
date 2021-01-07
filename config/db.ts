@@ -1,22 +1,22 @@
 // config/db.ts
 const productConfig = {
     mssql: {
-        port: 3306,
+        port: 1433,
         host: 'localhost',
-        user: 'root',
-        password: 'czx86088101',
-        database: 'nest_zero_to_one', // 库名
+        user: 'sa',
+        password: '111111_a',
+        database: 'testdb', // 库名
         connectionLimit: 10, // 连接限制
     },
 };
 
 const localConfig = {
     mssql: {
-        port: 3306,
+        port: 1433,
         host: 'localhost',
-        user: 'root',
-        password: 'czx86088101',
-        database: 'nest_zero_to_one', // 库名
+        user: 'sa',
+        password: '111111_a',
+        database: 'testdb', // 库名
         connectionLimit: 10, // 连接限制
     },
 };
