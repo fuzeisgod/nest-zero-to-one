@@ -15,7 +15,7 @@ const localConfig = {
         port: 1433,
         host: 'localhost',
         user: 'sa',
-        password: '111111_a',
+        password: 'czx86088101',
         database: 'testdb', // 库名
         connectionLimit: 10, // 连接限制
     },
